@@ -17,6 +17,7 @@ angular.module("myApp", [])
                 dataType: 'iframe',
                 postMessage: false,
                 data: requestData,
+                forceIframeTransport: true,
                 done: function (e, data) {
                     $.each(data.result.files, function (index, file) {
                         $('<p/>').text(file.name).appendTo('#files');
