@@ -1,0 +1,20 @@
+/* Styles go here */
+
+body {
+  padding: 60px;
+}
+
+.jumbotron {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.progress {
+  background: #DDDDDD;
+  border-radius: 2px;
+}
+
+.progress-bar {
+  background: #5cb85c;
+  border-radius: 2px;
+}
